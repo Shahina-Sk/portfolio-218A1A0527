@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Stylesheet" href="mystyles.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body> <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">SHINY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <section id="home" class="py-5">
+    <div class="container">
+        <div class="home-content">
+            <h1 class="display-4 fw-bold mb-4">Welcome</h1>
+            <h2 class="mb-4">I'm <span id="typing-text"></span></h2>
+            <p class="lead mb-4">A passionate web developer creating amazing digital experiences.</p>
+            <div class="social-icons mb-4">
+                <a href="https:////www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https:////www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https:////www.github.com/"><i class="fab fa-github"></i></a>
+                <a href="https:////www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Hello! I'm a passionate web developer with a keen eye for design and a love for creating seamless user experiences. With expertise in HTML, CSS, JavaScript, and various modern frameworks, I bring ideas to life through code.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><strong>Name:</strong> Sk. Shahina</li>
+                        <li><strong>Age:</strong> 21</li>
+                        <li><strong>Country:</strong> India</li>
+                        <li><strong>Phone:</strong> +91- 9701506751</li>
+                        <li><strong>Email:</strong> shahinashaik5277@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="calculator-project-img.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Scientific Calculator</h5>
+                            <p class="card-text">A sophisticated scientific calculator built with HTML, CSS, and JavaScript. It features advanced mathematical functions, trigonometry, logarithms, and more. The user-friendly interface allows for complex calculations with ease. </p>
+                            <a href="calculator-project/calculator.html" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="vegetable.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegease
+                            <p class="card-text">An innovative web application for vegetable delivery. Features include user-friendly ordering, real-time tracking, and a diverse selection of fresh produce. </p>
+                            <a href="second/intel.html" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="todo.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Todo-List</h5>
+                            <p class="card-text">A sleek and efficient todo list application. Features include task prioritization, due dates, and category tagging. Built with vanilla JavaScript and local storage for data persistence</p>
+                            <a href="TodoList-project/11-Todo-list.html" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>About Me</h5>
+                    <p>I'm a passionate web developer dedicated to creating beautiful and functional websites. With expertise in various technologies, I bring ideas to life through code.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Ongole , India</li>
+                        <li><i class="fas fa-phone"></i> +91- 9701506751</li>
+                        <li><i class="fas fa-envelope"></i>  shahinashaik5277@gmail.com</li>
+                    </ul>
+                    <div class="footer-social-icons mt-3">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <p class="mb-0">&copy; 2024 SHINE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Typing animation
+        const phrases = ["Shahina", "a Web Developer", "a UI/UX Designer", "a Problem Solver"];
+        let currentPhraseIndex = 0;
+        let currentCharIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        function typeText() {
+            const typingElement = document.getElementById('typing-text');
+            const currentPhrase = phrases[currentPhraseIndex];
+
+            if (isDeleting) {
+                typingElement.textContent = currentPhrase.substring(0, currentCharIndex - 1);
+                currentCharIndex--;
+            } else {
+                typingElement.textContent = currentPhrase.substring(0, currentCharIndex + 1);
+                currentCharIndex++;
+            }
+
+            if (!isDeleting && currentCharIndex === currentPhrase.length) {
+                isDeleting = true;
+                typingSpeed = 50;
+                setTimeout(typeText, 1000);
+            } else if (isDeleting && currentCharIndex === 0) {
+                isDeleting = false;
+                currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                typingSpeed = 100;
+                setTimeout(typeText, 500);
+            } else {
+                setTimeout(typeText, typingSpeed);
+            }
+        }
+
+        typeText();
+    </script>
+</body>
+</html>
